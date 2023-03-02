@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
   }
-  body{
+  body {
     margin-left: 0;
     margin-right: 0;
     padding-left: 200px;
@@ -12,10 +12,23 @@
   header {
     text-align: center;
     padding-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 50px;
   }
-  .title{
+  .title {
     color: purple;
     padding-bottom: 40px;
+  }
+  a{
+    text-decoration: none;
+  }
+  .id1 {
+    background-color: black;
+    color: white;
+    width: 30%;
+    font-size: .9em;
+}
+  .male1 {
+    float: left;
+    width: 80px;
   }
   
