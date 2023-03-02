@@ -1,28 +1,27 @@
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-  body {
+body {
     margin-left: 0;
     margin-right: 0;
     padding-left: 250px;
     padding-right: 250px;
-  }
-  header {
+}
+header {
     text-align: center;
     padding-top: 20px;
     padding-bottom: 50px;
-  }
-  .title {
+}
+.title {
     color: purple;
     padding-bottom: 40px;
-  }
-  a{
+}
+a{
     text-decoration: none;
-  }
-  .id {
+}
+.id {
     background-color: black;
     color: white;
     float: left;
@@ -32,8 +31,16 @@
     margin-right: 20px;
     margin-bottom: 30px;
 }
-  .photo {
+h3  {
+    padding-bottom: 5px;
+    padding-top: 7px;
+    padding-left: 5px;
+}
+p{
+    padding-bottom: 5px;
+}
+.photo {
     float: left;
     width: 80px;
-  }
+}
   
