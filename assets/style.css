@@ -1,13 +1,14 @@
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
+}
   body {
     margin-left: 0;
     margin-right: 0;
-    padding-left: 200px;
-    padding-right: 200px;
+    padding-left: 250px;
+    padding-right: 250px;
   }
   header {
     text-align: center;
@@ -21,15 +22,17 @@
   a{
     text-decoration: none;
   }
-  .id1 {
+  .id {
     background-color: black;
     color: white;
     float: left;
     font-size: .9em;
     width: 30%;
-    
+    box-shadow: 0 0 10px 1px rgb(0,0,0);
+    margin-right: 20px;
+    margin-bottom: 30px;
 }
-  .male1 {
+  .photo {
     float: left;
     width: 80px;
   }
