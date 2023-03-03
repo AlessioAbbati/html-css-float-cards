@@ -23,10 +23,17 @@ main{
     padding-bottom: 40px;
 }
 
-a{
+.mail{
     text-decoration: none;
     font-size: .9em;
+    color: aquamarine;
 }
+.email:hover{
+    text-decoration: underline;
+    color: salmon;
+}
+   
+    
 .clearfix::after{
     content: "";
     display: block;
