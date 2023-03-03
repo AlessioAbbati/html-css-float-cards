@@ -50,6 +50,9 @@ main{
     margin: 1.5rem 1rem;
     min-width: 250px;
     overflow: auto; 
+    /* text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden; per nascondere i testi lunghi tramite puntini, ma vale solo per una riga.*/
 }
 .id:hover{
     box-shadow: 0 0 10px 1px rgb(230, 26, 26);
