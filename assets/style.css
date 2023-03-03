@@ -27,6 +27,11 @@ a{
     text-decoration: none;
     font-size: .9em;
 }
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
 .id {
     background-color: rgb(15, 14, 23);
     color: white;
@@ -35,8 +40,6 @@ a{
     width: calc(100% / 3 - 2 * 1rem);
     box-shadow: 0 0 10px 1px rgb(0,0,0);
     margin: 1.5rem 1rem;
-    
-    
 }
 h3  {
     padding-bottom: 4px;
