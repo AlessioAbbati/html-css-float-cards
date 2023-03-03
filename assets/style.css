@@ -32,11 +32,10 @@ a{
     color: white;
     float: left;
     font-size: .9em;
-    width: 30%;
+    width: calc(100% / 3 - 2 * 1rem);
     box-shadow: 0 0 10px 1px rgb(0,0,0);
-    margin-right: 20px;
-    margin-bottom: 30px;
-    clear: right;
+    margin: 1.5rem 1rem;
+    
     
 }
 h3  {
